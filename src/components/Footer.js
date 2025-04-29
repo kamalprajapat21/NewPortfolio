@@ -31,7 +31,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="social-icons hover:">
               <a
                 href="https://x.com/KamalPraja7117"
                 style={{ color: "white" }}

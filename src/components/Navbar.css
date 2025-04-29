@@ -1,0 +1,42 @@
+.brand-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease;
+  }
+  .brand-logo:hover {
+    transform: rotate(-1deg) scale(1.05);
+  }
+  
+  .nav-icon {
+    margin-bottom: 3px;
+    margin-right: 4px;
+  }
+  
+  .active-nav {
+    color: #00dbde !important;
+    font-weight: bold;
+  }
+  
+  .leetcode-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #f9f9f9 !important;
+    transition: 0.3s ease;
+  }
+  .leetcode-link:hover {
+    color: #ffcc00 !important;
+    text-shadow: 0 0 8px #ffcc00;
+    transform: scale(1.05);
+  }
+  
+  .leetcode-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
