@@ -43,7 +43,7 @@ export default function Testimonials() {
           <div className="relative glass-card p-8 md:p-12">
             {/* Quote mark */}
             <div className="text-8xl text-accent/10 absolute top-4 left-6 leading-none select-none" style={{ fontFamily: 'Georgia, serif' }}>
-              "
+              &ldquo;
             </div>
 
             <AnimatePresence mode="wait">

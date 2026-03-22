@@ -25,7 +25,7 @@ export function useIntersectionObserver(options = {}) {
 
     observer.observe(element)
     return () => observer.disconnect()
-  }, [options.threshold, options.rootMargin])
+  }, [options.threshold, options.rootMargin]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return [ref, isIntersecting]
 }

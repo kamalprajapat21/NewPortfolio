@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
-import { motion } from 'framer-motion'
 
 const footerLinks = [
   { label: 'About', href: '#about' },
