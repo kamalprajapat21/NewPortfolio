@@ -8,6 +8,7 @@ import {
   AiOutlineUser,
   AiOutlineFundProjectionScreen,
   AiFillStar,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 import "./Navbar.css"; // Custom styles
@@ -83,6 +84,17 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen className="nav-icon" /> Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                className={location.pathname === "/contact" ? "active-nav" : ""}
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMail className="nav-icon" /> Contact
               </Nav.Link>
             </Nav.Item>
 
